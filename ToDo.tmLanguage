@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>todo</string>
+	</array>
+	<key>name</key>
+	<string>ToDo rvaz</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>!! [^\n]+</string>
+			<key>name</key>
+			<string>todo.disabled</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>- [^\n]+</string>
+			<key>name</key>
+			<string>todo.active</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[A-Z][^\na-z]+\n</string>
+			<key>name</key>
+			<string>todo.title</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>.+</string>
+			<key>name</key>
+			<string>todo.string</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.todo</string>
+	<key>uuid</key>
+	<string>e86e27b4-bb0b-44c9-93b7-fdf20e25cc21</string>
+</dict>
+</plist>
