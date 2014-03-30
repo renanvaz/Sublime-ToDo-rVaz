@@ -7,32 +7,32 @@
 		<string>todo</string>
 	</array>
 	<key>name</key>
-	<string>ToDo rVaz</string>
+	<string>TODO</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>match</key>
 			<string>!! [^\n]+</string>
 			<key>name</key>
-			<string>todo.disabled</string>
+			<string>comment</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>- [^\n]+</string>
 			<key>name</key>
-			<string>todo.active</string>
+			<string>string</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>[A-Z][^\na-z]+\n</string>
 			<key>name</key>
-			<string>todo.title</string>
+			<string>keyword</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>.+</string>
 			<key>name</key>
-			<string>todo.string</string>
+			<string>other</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
