@@ -12,13 +12,13 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>!! [^\n]+</string>
+			<string> *!! [^\n]+</string>
 			<key>name</key>
 			<string>comment</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>- [^\n]+</string>
+			<string> *- [^\n]+</string>
 			<key>name</key>
 			<string>string</string>
 		</dict>
