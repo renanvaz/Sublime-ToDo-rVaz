@@ -12,6 +12,12 @@
 	<array>
 		<dict>
 			<key>match</key>
+			<string> *! [^\n]+</string>
+			<key>name</key>
+			<string>variable.parameter.function</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string> *!! [^\n]+</string>
 			<key>name</key>
 			<string>comment</string>
