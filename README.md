@@ -1,9 +1,9 @@
-# TODO Syntax Highlight
+# TODO Syntax Highlighter
 
 ## Notation
 
 ### Title
-All in uppercase
+All characters in uppercase
 
     TODO TITLE
 
